@@ -104,27 +104,6 @@ class iCIFAR100(CIFAR100):
     def get_image_class(self, label):
         return self.data[np.array(self.targets) == label]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 def pil_loader(path):
     """
     Ref:
