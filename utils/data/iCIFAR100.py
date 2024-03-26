@@ -114,7 +114,6 @@ def pil_loader(path):
         img = Image.open(f)
         return img.convert("RGB")
 
-
 def accimage_loader(path):
     """
     Ref:
@@ -129,7 +128,6 @@ def accimage_loader(path):
     except IOError:
         # Potentially a decoding problem, fall back to PIL.Image
         return pil_loader(path)
-
 
 def default_loader(path):
     """
