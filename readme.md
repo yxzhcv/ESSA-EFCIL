@@ -8,13 +8,13 @@ This is the implementation of the paper "Efficient Statistical Sampling Adaptati
 
 ### Datasets
 Download following datasets:
-> ### CIFAR-100
-> ### TinyImageNet
-> ### ImageNet-Subset
+> #### CIFAR-100
+> #### TinyImageNet
+> #### ImageNet-Subset
 Locate the above three datasets under ./dataset directory.
 
 ### Parameter settings
-> ### The implementation details are in the body of the paper.
+> #### The implementation details are in the body of the paper.
 
 ### Training
 > #### 1. Download pretrained models to ./pre folder.
